@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-color: #29303b;
+}
+
+.wrapper {
+  padding: 50px;
+  width: 600px;
+  background-image: linear-gradient(#3f4b59, #333d46);
+  color: #fff;
+  text-align: center;
+  border: 1px solid #1c232d;
+  border-radius: 15px;
+  box-shadow: 0 0 15px #1c232d;
+}
+.wrapper h1 {
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+.wrapper p {
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-weight: 200;
+  color: rgb(185, 183, 183);
+}
+.wrapper .app-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .app-body .left,
+.wrapper .app-body .right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper .app-body input {
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 60px;
+}
+.wrapper .app-body select {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  font-size: 36px;
+  cursor: pointer;
+}
+.wrapper .app-body input,
+.wrapper .app-body select {
+  color: #fff;
+  border: none;
+  background: transparent;
+  text-align: center;
+}
+.wrapper .app-body input:focus,
+.wrapper .app-body select:focus {
+  outline: none;
+  color: rgb(67, 171, 255);
+}
+.wrapper .app-body option {
+  color: #333;
+}
+.wrapper .app-body .swap {
+  align-self: end;
+  top: 25px;
+  margin: 5px;
+  padding: 5px 50px;
+  background-image: linear-gradient(45deg, #2b89b7, #11e763);
+  font-size: 30px;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.wrapper .app-body .swap:focus {
+  outline: none;
+  background-image: linear-gradient(45deg, #317fcc, #1fc06a);
+}
+.wrapper .rate-info {
+  margin-top: 30px;
+  margin-bottom: 0;
+}/*# sourceMappingURL=style.css.map */
